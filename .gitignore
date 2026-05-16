@@ -1,0 +1,49 @@
+# ── Dependencies ─────────────────────────────────────────
+node_modules/
+
+# ── Environment secrets ───────────────────────────────────
+.env
+.env.local
+.env.*.local
+# Keep the example file so new devs know what to fill in
+!.env.example
+
+# ── Expo / React Native ───────────────────────────────────
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+
+# ── Android build ─────────────────────────────────────────
+SwiftDispatch/app/android/
+SwiftDispatch/app/.gradle/
+
+# ── iOS build ─────────────────────────────────────────────
+SwiftDispatch/app/ios/Pods/
+SwiftDispatch/app/ios/build/
+
+# ── Logs ─────────────────────────────────────────────────
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ── OS files ─────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Editor / IDE ─────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Claude Code internal tooling ─────────────────────────
+.claude/
