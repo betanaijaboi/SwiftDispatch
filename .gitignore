@@ -11,6 +11,7 @@ node_modules/
 # ── Expo / React Native ───────────────────────────────────
 .expo/
 dist/
+dist-*/
 web-build/
 expo-env.d.ts
 *.jks
